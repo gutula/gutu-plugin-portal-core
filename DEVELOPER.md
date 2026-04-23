@@ -54,6 +54,11 @@ Defines the self-service portal entry surface and the contract for portal-aware 
 | Field | Value |
 | --- | --- |
 | Depends On | `auth-core`, `org-tenant-core`, `role-policy-core`, `audit-core` |
+| Recommended Plugins | None |
+| Capability Enhancing | None |
+| Integration Only | None |
+| Suggested Packs | None |
+| Standalone Supported | Yes |
 | Requested Capabilities | `ui.register.admin`, `api.rest.mount`, `data.write.portal` |
 | Provides Capabilities | `portal.accounts` |
 | Owns Data | `portal.accounts` |
