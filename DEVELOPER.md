@@ -38,6 +38,8 @@ Defines the self-service portal entry surface and the contract for portal-aware 
 | Package Name | `@plugins/portal-core` |
 | Manifest ID | `portal-core` |
 | Display Name | Portal Core |
+| Domain Group | Operational Data |
+| Default Category | Content & Experience / Portal Experience |
 | Version | `0.1.0` |
 | Kind | `app` |
 | Trust Tier | `first-party` |
@@ -197,6 +199,7 @@ console.log("action", enablePortalAccountAction.id);
 - The plugin owns durable data state, but it does not yet ship a dedicated migration verification lane in this repo.
 - No standalone plugin-owned event, job, or workflow catalog is exported yet; compose it through actions, resources, and the surrounding Gutu runtime.
 - The plugin exposes a UI surface, but not a richer admin workspace contribution module.
+- The repo does not yet export a domain parity catalog with owned entities, reports, settings surfaces, and exception queues.
 
 ### Recommended next
 
